@@ -1,12 +1,28 @@
 #include <bits/stdc++.h>
-
+#include <cmath>
+#include <cstdio>
+#include <vector>
+#include <iostream>
+#include <algorithm>
 using namespace std;
 
 vector<string> split_string(string);
 
 // Complete the sockMerchant function below.
 int sockMerchant(int n, vector<int> ar) {
+    tmp; std::cin >> n;
+    while( n-- > 0 ) {
+        std::cin >> tmp;
+        sock_freq[tmp-1]++;
+    }
 
+    tmp = 0;
+    for (auto& sock : sock_freq)
+        tmp += sock / 2;
+
+    std::cout << tmp << std::endl;
+
+    return tmp;
 
 }
 

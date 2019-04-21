@@ -10,7 +10,7 @@ vector<string> split_string(string);
 
 // Complete the sockMerchant function below.
 int sockMerchant(int n, vector<int> ar) {
-    tmp; std::cin >> n;
+    int tmp; 
     while( n-- > 0 ) {
         std::cin >> tmp;
         sock_freq[tmp-1]++;

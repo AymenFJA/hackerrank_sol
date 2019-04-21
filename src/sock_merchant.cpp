@@ -13,11 +13,11 @@ int sockMerchant(int n, vector<int> ar) {
     int tmp; 
     while( n-- > 0 ) {
         std::cin >> tmp;
-        sock_freq[tmp-1]++;
+        ar[tmp-1]++;
     }
 
     tmp = 0;
-    for (auto& sock : sock_freq)
+    for (auto& sock : ar)
         tmp += sock / 2;
 
     std::cout << tmp << std::endl;

@@ -15,7 +15,7 @@ int diagonalDifference(vector<vector<int>> arr) {
        sum1 += arr[i][j];
 
       // finding sum of secondary diagonal
-      if (i+j == 2)
+      if (i==n-j- 1)
         sum2 += arr[i][j];
     }
   }
